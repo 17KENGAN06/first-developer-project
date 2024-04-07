@@ -1,0 +1,29 @@
+.title {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 22px;
+	letter-spacing: 0.05em;
+	color: #212121;
+	text-align: center;
+	font-family: 'Open Sans';
+}
+
+.subtitle {
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 0.05em;
+	color: #212121;
+	margin-top: 36px;
+	text-align: center;
+	font-family: 'Open Sans';
+}
+
+@media (max-width: 768px) {
+	.title {
+		font-size: 26px;
+	}
+	.subtitle {
+		font-size: 14px;
+	}
+}

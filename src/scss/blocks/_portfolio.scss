@@ -1,0 +1,110 @@
+.portfolio {
+	padding: 130px 0;
+	&__tabs {
+		margin-top: 110px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		column-gap: 20px;
+	}
+	&__tab {
+		width: 179px;
+		height: 55px;
+		border: 2px solid #00897b;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-family: 'Open Sans';
+		font-size: 20px;
+		line-height: 22px;
+		font-weight: 600;
+		letter-spacing: 0.05em;
+		color: #212121;
+		cursor: pointer;
+		&:hover {
+			box-shadow: 2px 2px 20px #00897b;
+			transition: 0.3s;
+		}
+		&_active {
+			background-color: #00897b;
+			color: #fff;
+		}
+	}
+	&__content {
+		margin-top: 120px;
+		display: none;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 30px;
+		&_active {
+			display: flex;
+		}
+	}
+	&-item {
+		&__link {
+			display: block;
+			position: relative;
+			width: 370px;
+		}
+
+		a {
+			display: block;
+			position: relative;
+			width: 300px;
+		}
+
+		span {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+
+		span {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background: rgba(0, 0, 0, 0.5);
+			opacity: 0;
+			color: #fff;
+			font-size: 40px;
+			transition: opacity 0.4s linear;
+		}
+
+		span:hover {
+			opacity: 1;
+		}
+	}
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+	.portfolio {
+		&__tabs {
+			flex-wrap: wrap;
+			row-gap: 15px;
+		}
+		&__tab {
+			font-size: 16px;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.portfolio {
+		padding: 100px 0;
+	}
+}
+
+@media (max-width: 576px) {
+	.portfolio {
+		padding: 75px 0;
+	}
+}
