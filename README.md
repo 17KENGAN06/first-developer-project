@@ -1,3 +1,3 @@
 # SCSS, JS, GULP, HTML, Methodology BAM
 
-[DEMO](17kengan06.github.io/first-developer-project/)
+[DEMO]([17kengan06.github.io/first-developer-project/](https://17kengan06.github.io/first-developer-project/))
